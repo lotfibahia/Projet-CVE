@@ -97,7 +97,7 @@ class HTTP(Packet):
 
 bind_layers(TCP, HTTP)
 
-packet=rdpcap("test.pcap")
+packet=rdpcap("capture.pcap")
 
 
 
